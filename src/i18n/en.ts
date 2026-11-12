@@ -1,0 +1,17 @@
+export default {
+  'app.name': 'MADAR', 'app.tag': 'Your Life. Your Choices. Your Legacy.',
+  'menu.new': 'New life', 'menu.slot': 'Slot {n}', 'menu.lang': 'العربية',
+  'cr.title': 'Create your character', 'cr.first': 'First name', 'cr.last': 'Last name', 'cr.gender': 'Gender', 'cr.male': 'Male', 'cr.female': 'Female',
+  'cr.country': 'Birthplace', 'cr.class': 'Family background', 'cr.poor': 'Struggling', 'cr.middle': 'Middle class', 'cr.rich': 'Wealthy', 'cr.start': 'Begin life', 'cr.back': 'Back',
+  'c.EG': 'Egypt', 'c.SA': 'Saudi Arabia', 'c.US': 'United States',
+  's.health': 'Health', 's.happiness': 'Happiness', 's.intelligence': 'Intelligence', 's.appearance': 'Appearance', 's.fitness': 'Fitness',
+  's.discipline': 'Discipline', 's.social': 'Social skills', 's.reputation': 'Reputation', 's.wealth': 'Wealth',
+  'role.mother': 'Mother', 'role.father': 'Father', 'role.sibling': 'Sibling',
+  'life.age': 'Age {n}', 'life.up': 'Age up', 'life.family': 'Family', 'life.log': 'Life story', 'life.dead': 'Your journey has ended.', 'life.menu': 'Menu',
+  'log.born': 'Your life began.', 'log.died': 'Your life ended.', 'log.npcDied': 'A family member passed away: {role}.',
+  'ev.schoolBully.t': 'A bully picks on you', 'ev.schoolBully.b': 'An older kid keeps taking your lunch money.', 'ev.schoolBully.tell': 'Tell a teacher', 'ev.schoolBully.fight': 'Stand up and fight',
+  'ev.lostWallet.t': 'You find a wallet', 'ev.lostWallet.b': 'It is full of cash, with an ID inside.', 'ev.lostWallet.return': 'Return it', 'ev.lostWallet.keep': 'Keep the money',
+  'ev.illness.t': 'You fall ill', 'ev.illness.b': 'A nasty fever has you in bed.', 'ev.illness.rest': 'Rest and see a doctor', 'ev.illness.ignore': 'Push through it',
+  'ev.examSeason.t': 'Exam season', 'ev.examSeason.b': 'Big exams are coming. How will you spend your evenings?', 'ev.examSeason.study': 'Study hard', 'ev.examSeason.play': 'Hang out with friends',
+  'ev.familyDinner.t': 'Family dinner', 'ev.familyDinner.b': 'Everyone is gathering for a big family dinner.', 'ev.familyDinner.join': 'Join them', 'ev.familyDinner.skip': 'Stay away',
+} as Record<string, string>;

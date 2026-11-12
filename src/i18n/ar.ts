@@ -1,0 +1,17 @@
+export default {
+  'app.name': 'مدار', 'app.tag': 'حياتك. اختياراتك. إرثك.',
+  'menu.new': 'حياة جديدة', 'menu.slot': 'الخانة {n}', 'menu.lang': 'English',
+  'cr.title': 'أنشئ شخصيتك', 'cr.first': 'الاسم الأول', 'cr.last': 'اسم العائلة', 'cr.gender': 'الجنس', 'cr.male': 'ذكر', 'cr.female': 'أنثى',
+  'cr.country': 'مكان الميلاد', 'cr.class': 'خلفية العائلة', 'cr.poor': 'متعسّرة', 'cr.middle': 'متوسطة', 'cr.rich': 'ثرية', 'cr.start': 'ابدأ الحياة', 'cr.back': 'رجوع',
+  'c.EG': 'مصر', 'c.SA': 'السعودية', 'c.US': 'الولايات المتحدة',
+  's.health': 'الصحة', 's.happiness': 'السعادة', 's.intelligence': 'الذكاء', 's.appearance': 'المظهر', 's.fitness': 'اللياقة',
+  's.discipline': 'الانضباط', 's.social': 'المهارات الاجتماعية', 's.reputation': 'السمعة', 's.wealth': 'الثروة',
+  'role.mother': 'الأم', 'role.father': 'الأب', 'role.sibling': 'الأخ أو الأخت',
+  'life.age': 'العمر {n}', 'life.up': 'تقدّم سنة', 'life.family': 'العائلة', 'life.log': 'قصة حياتك', 'life.dead': 'انتهت رحلتك.', 'life.menu': 'القائمة',
+  'log.born': 'بدأت حياتك.', 'log.died': 'انتهت حياتك.', 'log.npcDied': 'رحل أحد أفراد العائلة: {role}.',
+  'ev.schoolBully.t': 'متنمّر يضايقك', 'ev.schoolBully.b': 'طفل أكبر منك يأخذ مصروفك كل يوم.', 'ev.schoolBully.tell': 'أخبر المعلّم', 'ev.schoolBully.fight': 'واجهه بالقتال',
+  'ev.lostWallet.t': 'وجدتَ محفظة', 'ev.lostWallet.b': 'فيها مبلغ كبير وبطاقة هوية.', 'ev.lostWallet.return': 'أعدها لصاحبها', 'ev.lostWallet.keep': 'احتفظ بالمال',
+  'ev.illness.t': 'أصابك مرض', 'ev.illness.b': 'حمّى شديدة ألزمتك الفراش.', 'ev.illness.rest': 'ارتح وراجع الطبيب', 'ev.illness.ignore': 'تجاهله وواصل',
+  'ev.examSeason.t': 'موسم الامتحانات', 'ev.examSeason.b': 'الامتحانات الكبرى قريبة. كيف ستقضي مساءاتك؟', 'ev.examSeason.study': 'ذاكر بجدّ', 'ev.examSeason.play': 'اخرج مع أصدقائك',
+  'ev.familyDinner.t': 'عشاء العائلة', 'ev.familyDinner.b': 'العائلة كلها تجتمع على مائدة عشاء كبيرة.', 'ev.familyDinner.join': 'شاركهم', 'ev.familyDinner.skip': 'ابقَ بعيدًا',
+} as Record<string, string>;
